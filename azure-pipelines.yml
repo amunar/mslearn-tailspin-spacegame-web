@@ -1,2 +1,7 @@
 pool:
   vmImage: 'Ubuntu-16.04'
+  
+jobs:
+- job: foo
+  steps:
+  - script: echo foo
